@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.241921">
+    <testcase classname="To Validate the Login functionality of facebook application." name="To Validate the Login functionality of facebook application." time="19.413622">
+        <system-out><![CDATA[Given To launch the chrome browser and maxmize window.......................passed
+When To launch the url of facebook application..............................passed
+And To pass the valid username in email field...............................passed
+And To pass the valid password in password field............................passed
+And To click the Login button...............................................passed
+Then To close the  browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Validate the Login functionality of facebook application." name="To Signin the amazon account" time="14.828299">
+        <system-out><![CDATA[Given To launch the browser and maxmize the window..........................passed
+When To launch the url of amazon application................................passed
+And To enter email in email text box........................................passed
+And To enter the password in password text box..............................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

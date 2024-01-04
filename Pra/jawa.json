@@ -1,0 +1,237 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To Validate the Login functionality of facebook application.",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application.;to-validate-the-login-functionality-of-facebook-application.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7041823500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the chrome browser and maxmize window",
+            "match": {
+              "location": "Cucum.to_launch_the_chrome_browser_and_maxmize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6344830700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of facebook application",
+            "match": {
+              "location": "Cucum.to_launch_the_url_of_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 811994900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass the valid username in email field",
+            "match": {
+              "location": "Cucum.to_pass_the_valid_username_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 344030500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the valid password in password field",
+            "match": {
+              "location": "Cucum.to_pass_the_valid_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4325467700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the Login button",
+            "match": {
+              "location": "Cucum.to_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528116300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the  browser",
+            "match": {
+              "location": "Cucum.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "To Signin the amazon account",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application.;to-signin-the-amazon-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2062277600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "To launch the browser and maxmize the window",
+            "match": {
+              "location": "Rock.to_launch_the_browser_and_maxmize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11614139600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "To launch the url of amazon application",
+            "match": {
+              "location": "Rock.to_launch_the_url_of_amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 924295700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "To enter email in email text box",
+            "match": {
+              "location": "Rock.to_enter_email_in_email_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "value"
+                ]
+              },
+              {
+                "cells": [
+                  "email1",
+                  "prakash@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email2",
+                  "ram@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email3",
+                  "jawahar@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email4",
+                  "yathesh@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226783000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "To enter the password in password text box",
+            "match": {
+              "location": "Rock.to_enter_the_password_in_password_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password1",
+                  "password2",
+                  "password3"
+                ]
+              },
+              {
+                "cells": [
+                  "praku2911",
+                  "jaga2711",
+                  "naga4465"
+                ]
+              },
+              {
+                "cells": [
+                  "jawa123",
+                  "12345",
+                  "756352"
+                ]
+              },
+              {
+                "cells": [
+                  "abcd34",
+                  "hijk3456",
+                  "plmno6878"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "To close the browser",
+            "match": {
+              "location": "Rock.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Login functionality of facebook application.",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Auto.feature",
+    "tags": []
+  }
+]
